@@ -1,49 +1,108 @@
+<!DOCTYPE html>
 <html>
-<head>
-	<title>Login form</title>
-
+<head><title>Minkart</title>
+	<link rel="stylesheet" href="1.css">
+	<link rel="stylesheet" href="2.css">
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Application</title>
 	<style>
-		*{
-			margin:0;
-			padding:0;
-			box-sizing: border-box;
+		
+		.search-box {
+         float:right;
+         display: flex;
+         margin: 6px 20px;
+         transition: width 0.5s;
+       }
+        .user{
+     	float:right;
+     	color:white;
+     	margin:4px 0px;
 
-		}
-		body{
-			min-height: 100vh;
-			background:#eee;
-			display:flex;
-			font-family:sans-serif;
-		}
-		.container{
-			margin:auto;
-			width:500px;
-			max-width:90%;
-		}
-			.container form{
-				width:100%;
-				height:100%;
-				padding:20px;
-				background:white;
-				border-radius:4px;
-				box-shadow:0 8px 16px rgba(0,0,0,.3);
+     	display: flex;
 
+     }
+       .tbox{
+       	padding:8px;
+       	width:0;
+       	transition:width 0.5s;
+       }
+    .tbox:focus {
+    	width:230px;
+     }
+     .btn {
+     	width:40px;
+     	background-color:deepskyblue;	 
+     }
+    .dots{
+    	float:right;
+    	color:white;
+    	margin:16px 8px;
+    }
+    .user{
+    	float:right;
+    	margin:16px 8px;
+    }
+    
+      </style>
 
-			}
-	</style>
 </head>
-<body>
-	<div class='container'>
-		<form action="">
-		<h1>Login</h1>
-			<div class="form-group">
-				<label for="">Email id</label>
-				<input type="text class="form-control" required>
-			</div>
-			<div class="form-group">
-				<label for="">Password</label>
-				<input type="password" class="form-control" required>
-			</div>
-			<input type="submit" class="btn" value="Login"
-	</body>
+<body >
+	<a href="My Project.html"><h1>Minkart</h1></a>
+	 <a href="App.html"><div class="dots"><i class="fas fa-ellipsis-v fa-lg"></i></div></a>
+	 <a href="Profile.html"><div class="user"><i class="fas fa-user-circle fa-lg"></i>
+      </div></a>
+	<div class="search-box">
+         <input type="text" class="tbox" placeholder="Type to search.." />
+         <button class="btn" value="Search"><i class="fas fa-search" ></i></button>
+      </div>
+      <br>
+      
+     
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+	<a href="My Project.html">
+		<b><label>Home</label>
+	</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="Item.html">
+			<label>Items</label>
+		</a>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="cart.html">
+	 <label>Cart</label></a>
+	 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	 <a href="About.html"><label>About</label></a>
+	</b>
+	 <marquee><b><i>!!!IMPORTANT!!!  Be Sure The Items Before Proceeding to Pay.</i></b></marquee>
+<br><br>
+	
+		<div class="slider">
+			<img id="bnr-1" src="bnr4.png" alt="bnr 1"/>
+			<img id="bnr-2" src="bnr5.png" alt="bnr 2"/>
+			<img id="bnr-3" src="bnr6.png" alt="bnr 3"/>
+		</div>
+
+		<div class="navigation-button">
+			<span class="dot active" onclick="changeSlide(0)"></span>
+			<span class="dot" onclick="changeSlide(1)"></span>
+			<span class="dot" onclick="changeSlide(2)"></span>
+		</div>
+		
+<br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href=""><img src="C:\Users\DELL\Pictures\Screenshots\p1.png" height="340px" width="240px"></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href=""><img src="C:\Users\DELL\Pictures\Screenshots\p2.png" height="340px" width="240px"></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href=""><img src="C:\Users\DELL\Pictures\Screenshots\p3.png" height="340px" width="240px"></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href=""><img src="C:\Users\DELL\Pictures\Screenshots\p4.png" height="340px" width="240px"></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href=""><img src="C:\Users\DELL\Pictures\Screenshots\p5.png" height="340px" width="240px"></a>&nbsp&nbsp&nbsp&nbsp<br><br><br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href=""><img src="C:\Users\DELL\\Pictures\Screenshots\p6.png" height="340px" width="240px"></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href=""><img src="C:\Users\DELL\Pictures\Screenshots\p7.png" height="340px" width="240px"></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href=""><img src="C:\Users\DELL\Pictures\Screenshots\p8.png" height="340px" width="240px"></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href=""><img src="C:\Users\DELL\Pictures\Screenshots\p9.png" height="340px" width="240px"></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href=""><img src="C:\Users\DELL\Pictures\Screenshots\p10.png" height="340px" width="240px"></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<div class="container">
+    <P><h3>contact</h3>
+  aabbbcccdddee@gmail.com</P>
+</div>
+</body>
 	</html>
