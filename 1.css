@@ -1,0 +1,36 @@
+body {
+  background-color: #242323;
+  background-image:url(bg4.jpg);
+}
+h1{
+	color:#FF1492;
+	font-family:forte;
+	font-size:30px;
+	}
+	input{
+		opacity:transparent;
+
+	}
+	label{
+		color:white;
+		font-size:28;
+		font-family:arial,sans-serif;
+	}
+	input{
+		background-color:light black;
+	}
+	marquee{
+		color:black;
+		background-color:#FF1492;
+
+	}
+.container{
+	background-color:black;
+	margin:0 auto;
+}
+.p{
+	color:white;
+	margin-left: 2px ;
+	margin-right: 2px;
+}
+
